@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1010,872" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1010,1297.3333333333333" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -79,7 +79,7 @@
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="416,807.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="416,1232.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="test" />
     </Sequence.Variables>
@@ -89,10 +89,13 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:Comment sap:VirtualizedContainerService.HintSize="354,88.66666666666667" sap2010:WorkflowViewState.IdRef="Comment_1" Text="Go to home &gt; teams &gt; and Click git innit" />
-    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="354,118" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Hello Jeff&quot;]" />
-    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="354,123.33333333333333" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="why" />
-    <Delay Duration="00:02:05" sap:VirtualizedContainerService.HintSize="354,123.33333333333333" sap2010:WorkflowViewState.IdRef="Delay_1" />
-    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="354,266" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="enter your name" Title="hey user">
+    <ui:Comment sap:VirtualizedContainerService.HintSize="354,108" sap2010:WorkflowViewState.IdRef="Comment_2" Text="Dev 2- Open new studio clikck teams and choose clone repo" />
+    <ui:Comment sap:VirtualizedContainerService.HintSize="354,185.33333333333334" sap2010:WorkflowViewState.IdRef="Comment_3" Text="Dev 1 and Dev 2 Changing the same Main.xmal file&#xA;&#xA;after dev 2 commits, Dev 1 have 4 Activities in the Local and Dev 2 have 3 Activities saved online&#xA;" />
+    <ui:Comment sap:VirtualizedContainerService.HintSize="354,127.33333333333333" sap2010:WorkflowViewState.IdRef="Comment_4" Text="if Dev 1 changes. it will show the error message. you can change over or update it to your own drive&#xD;&#xA;" />
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="354,118.66666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Hello Jeff&quot;]" />
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="354,124" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="why" />
+    <Delay Duration="00:02:05" sap:VirtualizedContainerService.HintSize="354,124" sap2010:WorkflowViewState.IdRef="Delay_1" />
+    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="354,268.6666666666667" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="enter your name" Title="hey user">
       <ui:InputDialog.Result>
         <OutArgument x:TypeArguments="x:String">[test]</OutArgument>
       </ui:InputDialog.Result>
